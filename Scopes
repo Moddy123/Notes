@@ -1,0 +1,11 @@
+A variable scope in a set of rules that determines what part of your code has access to which variable. 
+For block scopes, variables only affect the code within a particular function. For global scopes, variables affect your entire code. 
+Global variables are avoided because prone to bugs. Since global scopes affect all variables across your entire code. 
+Variables will tend to overlap each other cause many problems within your code.
+
+Strict mode reinforces using let and const when creating variables and if your don't have them while creating a variable an error message will be triggered. 
+You write 'strict mode' above your code to do so. A side effect is when a function reaches outside of it scopes and affects other code in the process. 
+Pure functions don't have side effects and isn't an indeterminate. 
+
+
+
